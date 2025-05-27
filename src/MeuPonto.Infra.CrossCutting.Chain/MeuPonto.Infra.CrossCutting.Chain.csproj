@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeuPonto.Domain.Core\MeuPonto.Domain.Core.csproj" />
+    <ProjectReference Include="..\MeuPonto.Infra.CrossCutting.ExceptionHandler\MeuPonto.Infra.CrossCutting.ExceptionHandler.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeuPonto.Application\MeuPonto.Application.csproj" />
+    <ProjectReference Include="..\MeuPonto.Infra.CrossCutting.Bus\MeuPonto.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\MeuPonto.Infra.CrossCutting.Chain\MeuPonto.Infra.CrossCutting.Chain.csproj" />
+    <ProjectReference Include="..\MeuPonto.Infra.Data\MeuPonto.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
